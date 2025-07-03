@@ -9,7 +9,7 @@ const login = require("../src/routes/loginrouters")
 const teacher = require("../src/routes/teacher.routes")
 
 //const allowedOrigins = ['http://localhost:5173', 'http://localhost:5175'];
-const allowedOrigins = ['https://front-bueno-xi.vercel.app', 'http://localhost:5173', ];
+const allowedOrigins = ['vercel-front-three-mu.vercel.app, https://vercel-front-ashleys-projects-827534de.vercel.app/', 'http://localhost:5173', ];
 
 app.use(cors({
   origin: function(origin, callback) {
